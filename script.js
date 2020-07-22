@@ -64,7 +64,12 @@ const calculate = () =>{
         default :
             return
     }
-    curNumber=result
+    if(result === 0){
+        curNumber='0'
+    }
+    else{
+        curNumber=result
+    } 
     calculationOperator=''
 }
 
